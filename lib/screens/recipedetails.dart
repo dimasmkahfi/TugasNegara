@@ -22,7 +22,7 @@ class RecipeDetailsPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            buildRecipeImage(),
+            buildRecipeImage(category),
             SizedBox(
               height: 16.0,
             ),

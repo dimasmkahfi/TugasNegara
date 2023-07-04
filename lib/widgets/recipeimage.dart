@@ -1,6 +1,7 @@
  import 'package:flutter/material.dart';
  
- Widget buildRecipeImage() {
+ Widget buildRecipeImage(String image) {
+  print(image);
   return Card(
     elevation:5,
     shape: RoundedRectangleBorder(
@@ -12,8 +13,8 @@
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(25.0),
       ),
-      child: Image.network(
-        'https://www.teakpalace.com/image/cache/catalog/artikel/gambar-makanan-paling-enak-sate-kambing-1000x750h.jpg',
+      child: Image.asset(
+        'assets/$image.jpg',
         fit: BoxFit.fill,
       ),
     ),

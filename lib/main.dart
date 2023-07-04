@@ -130,10 +130,10 @@ class HomePage extends StatelessWidget {
                 crossAxisSpacing: 16.0,
                 children: [
                   buildMenuButton(
-                      context, 'Breakfast Recipes', Icons.local_cafe),
-                  buildMenuButton(context, 'Lunch Recipes', Icons.fastfood),
-                  buildMenuButton(context, 'Dinner Recipes', Icons.restaurant),
-                  buildMenuButton(context, 'Dessert Recipes', Icons.cake),
+                      context, 'Breakfast', Icons.local_cafe),
+                  buildMenuButton(context, 'Lunch', Icons.fastfood),
+                  buildMenuButton(context, 'Dinner', Icons.restaurant),
+                  buildMenuButton(context, 'Dessert', Icons.cake),
                 ],
               ),
             ),

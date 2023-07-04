@@ -13,7 +13,7 @@ class RecipeGridPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('$category Recipes'),
+        title: Text('$category'),
       ),
       body: ListView.builder(
         itemCount: 10,
